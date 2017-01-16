@@ -1,0 +1,1709 @@
+﻿{
+  "ConsoleConfig": {
+    "TranslationLanguageCode": "fr",
+    "StartupWelcomeDelay": false,
+    "AmountOfPokemonToDisplayOnStart": 2,
+    "DetailedCountsBeforeRecycling": true
+  },
+  "UpdateConfig": {
+    "SchemaVersion": 6,
+    "CheckForUpdates": true,
+    "AutoUpdate": true
+  },
+  "WebsocketsConfig": {
+    "UseWebsocket": true,
+    "WebSocketPort": 14251
+  },
+  "LocationConfig": {
+    "DisableHumanWalking": false,
+    "StartFromLastPosition": true,
+    "DefaultLatitude": 48.852933,
+    "DefaultLongitude": 2.350036,
+    "WalkingSpeedInKilometerPerHour": 15.5,
+    "UseWalkingSpeedVariant": true,
+    "WalkingSpeedVariant": 1.0,
+    "ShowVariantWalking": false,
+    "RandomlyPauseAtStops": true,
+    "MaxSpawnLocationOffset": 13,
+    "MaxTravelDistanceInMeters": 2000
+  },
+  "TelegramConfig": {
+    "UseTelegramAPI": false,
+    "TelegramAPIKey": "AIzaSyDIl39P2ovRjDLd4agrYOETCfzJky_g1IQ",
+    "TelegramPassword": "12345"
+  },
+  "GPXConfig": {
+    "UseGpxPathing": false,
+    "GpxFile": "GPXPath.GPX"
+  },
+  "SnipeConfig": {
+    "UseSnipeLocationServer": false,
+    "SnipeLocationServer": "localhost",
+    "SnipeLocationServerPort": 16969,
+    "GetSniperInfoFromPokezz": false,
+    "GetOnlyVerifiedSniperInfoFromPokezz": true,
+    "GetSniperInfoFromPokeSnipers": false,
+    "GetSniperInfoFromPokeWatchers": false,
+    "GetSniperInfoFromSkiplagged": false,
+    "MinPokeballsToSnipe": 20,
+    "MinPokeballsWhileSnipe": 0,
+    "MinDelayBetweenSnipes": 60000,
+    "SnipingScanOffset": 0.005,
+    "SnipeAtPokestops": false,
+    "SnipeIgnoreUnknownIv": false,
+    "UseTransferIvForSnipe": false,
+    "SnipePokemonNotInPokedex": false,
+    "UseSnipeLimit": true,
+    "SnipeRestSeconds": 600,
+    "SnipeCountLimit": 39,
+    "ActivateMSniper": false,
+    "MinIVForAutoSnipe": 100,
+    "AutosnipeVerifiedOnly": false,
+    "DefaultAutoSnipeCandy": 0,
+    "SnipePauseOnOutOfBallTime": 5
+  },
+  "HumanWalkSnipeConfig": {
+    "Enable": true,
+    "DisplayPokemonList": true,
+    "MaxDistance": 1500.0,
+    "MaxEstimateTime": 900.0,
+    "CatchEmAllMinBalls": 50,
+    "TryCatchEmAll": true,
+    "CatchPokemonWhileWalking": true,
+    "SpinWhileWalking": false,
+    "AlwaysWalkback": false,
+    "SnipingScanOffset": 0.025,
+    "WalkbackDistanceLimit": 300.0,
+    "IncludeDefaultLocation": true,
+    "UseSnipePokemonList": true,
+    "MaxSpeedUpSpeed": 60.0,
+    "AllowSpeedUp": true,
+    "DelayTimeAtDestination": 5000,
+    "UsePokeRadar": true,
+    "UseSkiplagged": true,
+    "UsePokecrew": true,
+    "UsePokesnipers": true,
+    "UsePokeZZ": true,
+    "UsePokeWatcher": true,
+    "UseFastPokemap": true,
+    "UsePogoLocationFeeder": true,
+    "AllowTransferWhileWalking": false
+  },
+  "DataSharingConfig": {
+    "EnableSyncData": true,
+    "AutoSnipe": true,
+    "DataServiceIdentification": "d7bfe94a-14fb-44f7-a89b-4c4f21ef2d3a",
+    "DataRecieverURL": "ws://necrosocket.herokuapp.com/socket.io/?EIO=3&transport=websocket"
+  },
+  "PokeStopConfig": {
+    "UsePokeStopLimit": true,
+    "PokeStopLimit": 1998,
+    "PokeStopLimitMinutes": 1470
+  },
+  "GymConfig": {
+    "Enable": false,
+    "PrioritizeGymOverPokestop": true,
+    "MaxDistance": 500.0,
+    "DefaultTeam": "Yellow",
+    "MaxCPToDeploy": 1800,
+    "MaxLevelToDeploy": 16,
+    "VisitTimeout": 60,
+    "UseRandomPokemon": false,
+    "NumberOfTopPokemonToBeExcluded": 10,
+    "CollectCoinAfterDeployed": 5,
+    "MaxGymLevelToAttack": 3,
+    "MaxDefendersToAttack": 3
+  },
+  "PokemonConfig": {
+    "CatchPokemon": true,
+    "DelayBetweenPokemonCatch": 2000,
+    "UseCatchLimit": true,
+    "CatchPokemonLimit": 488,
+    "CatchPokemonLimitMinutes": 1470,
+    "UseIncenseConstantly": false,
+    "UseEggIncubators": true,
+    "UseLimitedEggIncubators": true,
+    "UseLuckyEggConstantly": false,
+    "UseLuckyEggsMinPokemonAmount": 30,
+    "UseLuckyEggsWhileEvolving": false,
+    "UseBerriesMinCp": 1000,
+    "UseBerriesMinIv": 90.0,
+    "UseBerriesBelowCatchProbability": 0.2,
+    "UseBerriesOperator": "or",
+    "MaxBerriesToUsePerPokemon": 30,
+    "TransferWeakPokemon": true,
+    "TransferDuplicatePokemon": true,
+    "TransferDuplicatePokemonOnCapture": true,
+    "RenamePokemon": false,
+    "RenameOnlyAboveIv": false,
+    "RenameTemplate": "{1}_{0}",
+    "FavoriteMinIvPercentage": 95.0,
+    "AutoFavoritePokemon": true,
+    "MaxPokeballsPerPokemon": 6,
+    "UseGreatBallAboveCp": 400,
+    "UseUltraBallAboveCp": 750,
+    "UseMasterBallAboveCp": 1500,
+    "UseGreatBallAboveIv": 85.0,
+    "UseUltraBallAboveIv": 95.0,
+    "UseGreatBallBelowCatchProbability": 0.5,
+    "UseUltraBallBelowCatchProbability": 0.3,
+    "UseMasterBallBelowCatchProbability": 0.05,
+    "AutomaticallyLevelUpPokemon": false,
+    "OnlyUpgradeFavorites": false,
+    "UseLevelUpList": false,
+    "AmountOfTimesToUpgradeLoop": 5,
+    "GetMinStarDustForLevelUp": 5000,
+    "LevelUpByCPorIv": "iv",
+    "UpgradePokemonCpMinimum": 1000.0,
+    "UpgradePokemonIvMinimum": 95.0,
+    "UpgradePokemonMinimumStatsOperator": "and",
+    "EvolveAboveIvValue": 95.0,
+    "EvolveAllPokemonAboveIv": false,
+    "EvolveAllPokemonWithEnoughCandy": false,
+    "EvolveKeptPokemonsAtStorageUsagePercentage": 90.0,
+    "EvolveKeptPokemonIfBagHasOverThisManyPokemon": 120,
+    "KeepPokemonsThatCanEvolve": false,
+    "KeepMinCp": 1250,
+    "KeepMinIvPercentage": 90.0,
+    "KeepMinLvl": 6,
+    "KeepMinOperator": "or",
+    "UseKeepMinLvl": false,
+    "PrioritizeIvOverCp": true,
+    "KeepMinDuplicatePokemon": 1,
+    "UsePokemonToNotCatchFilter": false,
+    "UsePokemonSniperFilterOnly": false,
+    "DumpPokemonStats": false,
+    "DelayBetweenPokemonUpgrade": 4000,
+    "OutOfBallCatchBlockTime": 5,
+    "PokeballToKeepForSnipe": 50,
+    "UseBulkTransferPokemon": true,
+    "BulkTransferStogareBuffer": 10,
+    "BulkTransferSize": 100
+  },
+  "RecycleConfig": {
+    "VerboseRecycling": true,
+    "RecycleInventoryAtUsagePercentage": 90.0,
+    "RandomizeRecycle": false,
+    "RandomRecycleValue": 5,
+    "TotalAmountOfPokeballsToKeep": 150,
+    "TotalAmountOfPotionsToKeep": 50,
+    "TotalAmountOfRevivesToKeep": 39,
+    "TotalAmountOfBerriesToKeep": 19,
+    "UseRecyclePercentsInsteadOfTotals": false,
+    "PercentOfInventoryPokeballsToKeep": 35,
+    "PercentOfInventoryPotionsToKeep": 35,
+    "PercentOfInventoryRevivesToKeep": 20,
+    "PercentOfInventoryBerriesToKeep": 10
+  },
+  "CustomCatchConfig": {
+    "EnableHumanizedThrows": true,
+    "EnableMissedThrows": true,
+    "ThrowMissPercentage": 5,
+    "NiceThrowChance": 5,
+    "GreatThrowChance": 70,
+    "ExcellentThrowChance": 95,
+    "CurveThrowChance": 90,
+    "ForceGreatThrowOverIv": 90.0,
+    "ForceExcellentThrowOverIv": 80.0,
+    "ForceGreatThrowOverCp": 1000,
+    "ForceExcellentThrowOverCp": 1000,
+    "UseTransferFilterToCatch": true
+  },
+  "PlayerConfig": {
+    "DelayBetweenPlayerActions": 2000,
+    "EvolveActionDelay": 10000,
+    "TransferActionDelay": 3000,
+    "RecycleActionDelay": 1000,
+    "RenamePokemonActionDelay": 2000,
+    "UseNearActionRandom": true
+  },
+  "SoftBanConfig": {
+    "FastSoftBanBypass": true,
+    "ByPassSpinCount": 1
+  },
+  "GoogleWalkConfig": {
+    "UseGoogleWalk": true,
+    "DefaultStepLength": 1.3,
+    "GoogleHeuristic": "walking",
+    "GoogleAPIKey": "AIzaSyDIl39P2ovRjDLd4agrYOETCfzJky_g1IQ",
+    "Cache": true,
+    "GoogleElevationAPIKey": null
+  },
+  "YoursWalkConfig": {
+    "UseYoursWalk": false,
+    "YoursWalkHeuristic": "bicycle"
+  },
+  "MapzenWalkConfig": {
+    "UseMapzenWalk": false,
+    "MapzenTurnByTurnApiKey": null,
+    "MapzenWalkHeuristic": "bicycle",
+    "MapzenElevationApiKey": null
+  },
+  "ItemRecycleFilter": [
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokeBall",
+      "Value": 50
+    }
+  ],
+  "PokemonsNotToTransfer": [
+    "venusaur",
+    "charizard",
+    "blastoise",
+    "clefable",
+    "muk",
+    "chansey",
+    "gyarados",
+    "lapras",
+    "ditto",
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "snorlax",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "dragonite",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToEvolve": [
+    "caterpie",
+    "weedle",
+    "pidgey",
+    "rattata"
+  ],
+  "PokemonsToLevelUp": [
+    "venusaur",
+    "charizard",
+    "blastoise",
+    "clefable",
+    "muk",
+    "chansey",
+    "gyarados",
+    "ditto",
+    "snorlax",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "dragonite",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToIgnore": [
+    "tauros",
+    "kangaskhan",
+    "mrMime",
+    "farfetchd"
+  ],
+  "CaptchaConfig": {
+    "AllowManualCaptchaResolve": true,
+    "ManualCaptchaTimeout": 120,
+    "PlaySoundOnCaptcha": true,
+    "DisplayOnTop": true,
+    "Enable2Captcha": false,
+    "EnableAntiCaptcha": false,
+    "AntiCaptchaAPIKey": "201.33.206.229",
+    "ProxyHost": "",
+    "ProxyPort": 3128,
+    "EnableCaptchaSolutions": false,
+    "CaptchaSolutionAPIKey": "",
+    "CaptchaSolutionsSecretKey": "",
+    "AutoCaptchaTimeout": 120,
+    "AutoCaptchaRetries": 3,
+    "TwoCaptchaAPIKey": ""
+  },
+  "PokemonsTransferFilter": {
+    "Golduck": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "waterGunFast",
+          "hydroPump"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Aerodactyl": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "biteFast",
+          "hyperBeam"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Venusaur": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "vineWhipFast",
+          "solarBeam"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Farfetchd": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Krabby": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Kangaskhan": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 60.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Horsea": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Staryu": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "MrMime": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 40.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Scyther": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Jynx": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Charizard": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "wingAttackFast",
+          "fireBlast"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Electabuzz": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "thunderShockFast",
+          "thunder"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Magmar": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Pinsir": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "rockSmashFast",
+          "xScissor"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Tauros": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Magikarp": {
+      "KeepMinCp": 200,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Exeggutor": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "zenHeadbuttFast",
+          "solarBeam"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Gyarados": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "dragonBreath",
+          "hydroPump"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Lapras": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "frostBreathFast",
+          "blizzard"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Eevee": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Vaporeon": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "waterGun",
+          "hydroPump"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Jolteon": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Flareon": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "ember",
+          "fireBlast"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Porygon": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 60.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [],
+      "DeprecatedMoves": null,
+      "MovesOperator": "or",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Arcanine": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "fireFangFast",
+          "fireBlast"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Snorlax": {
+      "KeepMinCp": 2600,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "zenHeadbuttFast",
+          "hyperBeam"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    },
+    "Dragonite": {
+      "KeepMinCp": 2600,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinLvl": 6,
+      "UseKeepMinLvl": false,
+      "KeepMinOperator": "or",
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        [
+          "dragonBreath",
+          "dragonClaw"
+        ]
+      ],
+      "DeprecatedMoves": null,
+      "MovesOperator": "and",
+      "CatchOnlyPokemonMeetTransferCriteria": false
+    }
+  },
+  "PokemonToSnipe": {
+    "Locations": [
+      {
+        "Latitude": 38.556807486461118,
+        "Longitude": -121.2383794784546
+      },
+      {
+        "Latitude": -33.859019,
+        "Longitude": 151.213098
+      },
+      {
+        "Latitude": 47.5014969,
+        "Longitude": -122.0959568
+      },
+      {
+        "Latitude": 51.5025343,
+        "Longitude": -0.2055027
+      }
+    ],
+    "Pokemon": [
+      "venusaur",
+      "charizard",
+      "blastoise",
+      "beedrill",
+      "raichu",
+      "sandslash",
+      "nidoking",
+      "nidoqueen",
+      "clefable",
+      "ninetales",
+      "golbat",
+      "vileplume",
+      "golduck",
+      "primeape",
+      "arcanine",
+      "poliwrath",
+      "alakazam",
+      "machamp",
+      "golem",
+      "rapidash",
+      "slowbro",
+      "muk",
+      "cloyster",
+      "gengar",
+      "exeggutor",
+      "marowak",
+      "hitmonchan",
+      "lickitung",
+      "rhydon",
+      "chansey",
+      "starmie",
+      "scyther",
+      "magmar",
+      "electabuzz",
+      "jynx",
+      "gyarados",
+      "lapras",
+      "ditto",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "porygon",
+      "kabutops",
+      "aerodactyl",
+      "snorlax",
+      "articuno",
+      "zapdos",
+      "moltres",
+      "dragonite",
+      "mewtwo",
+      "mew"
+    ]
+  },
+  "PokemonToUseMasterball": [
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mew",
+    "mewtwo"
+  ],
+  "HumanWalkSnipeFilters": {
+    "Magikarp": {
+      "MaxDistance": 300.0,
+      "Priority": 10,
+      "MaxWalkTimes": 200.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Eevee": {
+      "MaxDistance": 500.0,
+      "Priority": 10,
+      "MaxWalkTimes": 200.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Electabuzz": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 700.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Dragonite": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Dragonair": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Dratini": {
+      "MaxDistance": 2000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Charizard": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Snorlax": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Lapras": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Exeggutor": {
+      "MaxDistance": 1500.0,
+      "Priority": 1,
+      "MaxWalkTimes": 600.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Vaporeon": {
+      "MaxDistance": 1800.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Lickitung": {
+      "MaxDistance": 1800.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Flareon": {
+      "MaxDistance": 1800.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Scyther": {
+      "MaxDistance": 1000.0,
+      "Priority": 3,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Beedrill": {
+      "MaxDistance": 1000.0,
+      "Priority": 3,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Chansey": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Hitmonlee": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Machamp": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Ninetales": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Jolteon": {
+      "MaxDistance": 1200.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Poliwhirl": {
+      "MaxDistance": 1200.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Rapidash": {
+      "MaxDistance": 1500.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Cloyster": {
+      "MaxDistance": 1200.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Dodrio": {
+      "MaxDistance": 1200.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Clefable": {
+      "MaxDistance": 1000.0,
+      "Priority": 3,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Golbat": {
+      "MaxDistance": 200.0,
+      "Priority": 6,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Jynx": {
+      "MaxDistance": 1200.0,
+      "Priority": 4,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Rhydon": {
+      "MaxDistance": 1200.0,
+      "Priority": 4,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Kangaskhan": {
+      "MaxDistance": 800.0,
+      "Priority": 4,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Wigglytuff": {
+      "MaxDistance": 1250.0,
+      "Priority": 4,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Gyarados": {
+      "MaxDistance": 1800.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Dewgong": {
+      "MaxDistance": 1800.0,
+      "Priority": 2,
+      "MaxWalkTimes": 800.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Blastoise": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": true,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Venusaur": {
+      "MaxDistance": 3000.0,
+      "Priority": 1,
+      "MaxWalkTimes": 900.0,
+      "CatchPokemonWhileWalking": false,
+      "SpinPokestopWhileWalking": false,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": true,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Bulbasaur": {
+      "MaxDistance": 500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Charmander": {
+      "MaxDistance": 500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Squirtle": {
+      "MaxDistance": 500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Omanyte": {
+      "MaxDistance": 1500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Marowak": {
+      "MaxDistance": 1500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Venomoth": {
+      "MaxDistance": 1500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    },
+    "Vileplume": {
+      "MaxDistance": 1500.0,
+      "Priority": 3,
+      "MaxWalkTimes": 300.0,
+      "CatchPokemonWhileWalking": true,
+      "SpinPokestopWhileWalking": true,
+      "MaxSpeedUpSpeed": 60.0,
+      "AllowSpeedUp": false,
+      "DelayTimeAtDestination": 10,
+      "AllowTransferWhileWalking": false
+    }
+  },
+  "PokemonUpgradeFilters": {
+    "Dratini": {
+      "LevelUpByCPorIv": "iv",
+      "UpgradePokemonCpMinimum": 600.0,
+      "UpgradePokemonIvMinimum": 99.0,
+      "UpgradePokemonMinimumStatsOperator": "or",
+      "OnlyUpgradeFavorites": false
+    }
+  },
+  "MultipleBotConfig": {
+    "RuntimeSwitch": 55,
+    "OnRarePokemon": true,
+    "MinIVToSwitch": 90.0,
+    "EXPSwitch": 25000,
+    "PokestopSwitch": 500,
+    "PokemonSwitch": 200,
+    "PokemonPerHourSwitch": 100,
+    "StartFromDefaultLocation": true,
+    "PokestopSoftbanCount": 5,
+    "DisplayList": true,
+    "SelectAccountOnStartUp": false,
+    "CatchFleeCount": 5,
+    "SwitchOnCatchLimit": true,
+    "SwitchOnPokestopLimit": true
+  },
+  "NotificationConfig": {
+    "EnablePushBulletNotification": false,
+    "EnableEmailNotification": false,
+    "PushBulletApiKey": "",
+    "GmailUsername": "",
+    "GmailPassword": "",
+    "Recipients": ""
+  },
+  "SnipePokemonFilter": {
+    "Lapras": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Dragonite": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Snorlax": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Dratini": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 4,
+      "AustoSnipeCandy": 2000
+    },
+    "Dragonair": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 4,
+      "AustoSnipeCandy": 2000
+    },
+    "Machop": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 4,
+      "AustoSnipeCandy": 2000
+    },
+    "Machoke": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 4,
+      "AustoSnipeCandy": 2000
+    },
+    "Machamp": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Bulbasaur": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Ivysaur": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Venusaur": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Charmander": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Charmeleon": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Charizard": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Squirtle": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Wartortle": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 3,
+      "AustoSnipeCandy": 2000
+    },
+    "Blastoise": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Growlithe": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 4,
+      "AustoSnipeCandy": 2000
+    },
+    "Arcanine": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 5,
+      "AustoSnipeCandy": 2000
+    },
+    "Abra": {
+      "SnipeIV": 0,
+      "Moves": [],
+      "Operator": "or",
+      "VerifiedOnly": false,
+      "Priority": 1,
+      "AustoSnipeCandy": 2000
+    }
+  },
+  "EvolvePokemonFilter": {
+    "Zubat": {
+      "EnableEvolve": true,
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Pidgey": {
+      "EnableEvolve": true,
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Caterpie": {
+      "EnableEvolve": true,
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    }
+  },
+  "CatchPokemonFilter": {
+    "Lapras": {
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Dratini": {
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Dragonite": {
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Snorlax": {
+      "MinIV": 0,
+      "MinLV": 0,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "or"
+    },
+    "Zubat": {
+      "MinIV": 100,
+      "MinLV": 100,
+      "MinCP": 0,
+      "Moves": [],
+      "Operator": "and"
+    }
+  },
+  "BotSwitchPokemonFilters": {
+    "Lickitung": {
+      "IV": 30,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Dragonite": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Lapras": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Exeggutor": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Magmar": {
+      "IV": 70,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Arcanine": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Beedrill": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Blastoise": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Charizard": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Venusaur": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 100,
+      "Moves": []
+    },
+    "Vileplume": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Vaporeon": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Dragonair": {
+      "IV": 70,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Dratini": {
+      "IV": 90,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 100,
+      "Moves": []
+    },
+    "Snorlax": {
+      "IV": 30,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Kangaskhan": {
+      "IV": 80,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Ninetales": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Electabuzz": {
+      "IV": 10,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    },
+    "Magikarp": {
+      "IV": 95,
+      "RemainTimes": 60,
+      "Operator": "or",
+      "LV": 0,
+      "Moves": []
+    }
+  }
+}
