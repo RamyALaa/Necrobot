@@ -1,0 +1,197 @@
+[03:30:37] () Configuration is up-to-date. Schema version: 6
+[03:30:37] () Validating config.json...
+[03:30:39] () Auth Configuration is up-to-date. Schema version: 6
+[03:30:39] () Validating auth.json...
+[03:30:42] (ERREUR) Impossible de démarrer le serveur WebSocket sur le port : 14251
+[03:30:42] (INFO)  Your IP is: 82.232.96.15
+[03:30:43] (MÀJ) NecroBot v1.0.0.62 est à jour.
+[03:30:43] (INFO) Connexion via Google
+[03:30:49] (INFO) Connecté en tant que PrinceRk91
+[03:30:50] (ATTENTION) Marche réaliste détectée, utilisation des paramètres par défaut dans le fichier config.json
+[03:30:50] (ATTENTION) Destination : 48.8489233703546,2.33324691285511
+[03:30:54] (INFO) ====== Classement par PC ======
+[03:30:54] (INFO) # CP 2325/2223 | (76.88% IV)	| Lvl 25	 NOM: Ronflex   	 Attaque 1: Léchouille           Attaque 2: Plaquage             Bonbons: 132
+[03:30:54] (INFO) # CP 2129/2045 | (73.05% IV)	| Lvl 23	 NOM: Ronflex   	 Attaque 1: Psykoud’Boul         Attaque 2: Séisme               Bonbons: 132
+[03:30:54] (INFO) ====== Classement par IV ======
+[03:30:54] (INFO) # CP   80/  89 | (100.00% IV)	| Lvl 03	 NOM: Mélofée   	 Attaque 1: Écras'Face           Attaque 2: Pouvoir Lunaire      Bonbons: 7
+[03:30:54] (INFO) # CP  692/ 769 | (100.00% IV)	| Lvl 25	 NOM: Évoli     	 Attaque 1: Charge               Attaque 2: Plaquage             Bonbons: 225
+[03:30:54] (INFO) Poké Balls: 123 | Super Balls: 32 | Hyper Balls: 18 | Master Balls: 0
+[03:30:54] (INFO) Potions: 8 | Super Potions: 3 | Hyper Potions: 1 | Potions Max: 51
+[03:30:54] (INFO) Rappels: 43 | Rappels Max: 0
+[03:30:54] (INFO) Baies: 16 | Encens: 9 | Œuf chance: 6 | Leurres: 6
+[03:30:56] (RECYCLAGE) ItemPokeBall x23
+[03:30:58] (RECYCLAGE) ItemPotion x8
+[03:31:00] (RECYCLAGE) ItemSuperPotion x3
+[03:31:02] (RECYCLAGE) ItemHyperPotion x1
+[03:31:04] (RECYCLAGE) ItemMaxPotion x1
+[03:31:06] (RECYCLAGE) ItemRevive x4
+[03:31:07] (ŒUF) Incubation en cours, 0.47km restant
+[03:31:07] (INFO) Pokédex (151) : Rencontré 102 | Capturé 95
+[03:31:10] (SNIPER) Sniper count 0
+[03:31:12] (POKEMON) (Fuite) | (Normal) Nosferapti Lvl: 23 CP: (298/422) IV: 32.00% | Chance: 31.22% | 51.91m dist | avec une SuperBall (31 restante) | lat: 48.848473 long: 2.333065 | Move1: QuickAttackFast Move2: AirCutter
+[03:31:16] (SNIPER) Sniper count 0
+[03:31:18] (POKEMON) (Fuite) | (Normal) Piafabec Lvl: 21 CP: (362/412) IV: 69.00% | Chance: 32.67% | 67.18m dist | avec une SuperBall (30 restante) | lat: 48.848534 long: 2.333947 | Move1: QuickAttackFast Move2: Twister
+[03:31:22] (SNIPER) Sniper count 0
+[03:31:24] (POKEMON) (Fuite) | (Normal) M.Mime Lvl: 6 CP: (292/246) IV: 36.00% | Chance: 37.37% | 68.39m dist | avec une SuperBall (29 restante) | lat: 48.848960 long: 2.332315 | Move1: ZenHeadbuttFast Move2: Psychic
+[03:31:28] (INFO) Pokestop Colonnes Allée Du Séminaire à 33m | 4s (route Google Walk)
+[03:31:30] (POKESTOP) Colonnes Allée Du Séminaire +50XP | 0 Gems | 1 x ItemPotion, 2 x ItemPokeBall
+[03:31:30] (INFO) (POKESTOP LIMIT) 604/1998
+[03:31:30] (SNIPER) Sniper count 0
+[03:31:31] (INFO) Pokestop Sculpture "Sous Le Chapeau" à 88m | 11s (route Google Walk)
+[03:31:33] (SNIPER) Sniper count 0
+[03:31:36] (SNIPER) Sniper count 0
+[03:31:36] (SNIPER) (MSniperService) [Sniper] Scan d'un Carapuce avec 92.07% IV à 55.5625787511339,12.9093339271949...
+[03:31:44] (BAIE) Baie Framby utilisé, 15 restante(s)
+[03:31:45] (POKEMON) (Manqué) | (Normal) Carapuce Lvl: 3 CP: (59/75) IV: 92.00% | Chance: 37.08% | 1036377.45m dist | avec une SuperBall (28 restante) | lat: 55.562579 long: 12.909334 | Move1: TackleFast Move2: AquaTail
+[03:31:48] (POKEMON) (#2 -Fuite) | (Normal) Carapuce Lvl: 3 CP: (59/75) IV: 92.00% | Chance: 37.08% | 1036377.45m dist | avec une SuperBall (27 restante) | lat: 55.562579 long: 12.909334 | Move1: TackleFast Move2: AquaTail
+[03:31:51] (SNIPER) (MSniperService) [Sniper] Scan d'un Machoc avec 80% IV à 55.6182119466132,13.0570679236809...
+[03:32:08] (POKEMON) (Fuite) | (Normal) Machoc Lvl: 11 CP: (363/342) IV: 83.00% | Chance: 45.14% | 1047435.54m dist | avec une SuperBall (26 restante) | lat: 55.618212 long: 13.057068 | Move1: KarateChopFast Move2: CrossChop
+[03:32:11] (SNIPER) (MSniperService) [Sniper] Scan d'un Carapuce avec 92.07% IV à 55.5625787511339,12.9093339271949...
+[03:32:32] (SNIPER) [Sniper] Echec du scan. Aucun Pokémon trouvé.
+[03:32:42] (POKESTOP) Gros Tout Nu  +50XP | 0 Gems | 1 x ItemPotion, 1 x ItemGreatBall, 1 x ItemPokeBall
+[03:32:42] (INFO) (POKESTOP LIMIT) 605/1998
+[03:32:47] (INFO)  ##### config.json ##### 
+[03:32:48] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:32:59] (POKESTOP) Sculpture "Sous Le Chapeau" +50XP | 0 Gems | 1 x ItemPotion, 1 x ItemRevive, 1 x ItemPokeBall
+[03:32:59] (INFO) (POKESTOP LIMIT) 606/1998
+[03:33:00] (INFO) Pokestop Paix Commerce Arts Agriculture à 161m | 20s (route Google Walk)
+[03:33:48] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:33:52] (POKESTOP) L'Arche Éditeur  +50XP | 0 Gems | 1 x ItemUltraBall, 3 x ItemPokeBall
+[03:33:52] (INFO) (POKESTOP LIMIT) 607/1998
+[03:33:57] (POKESTOP) Paix Commerce Arts Agriculture +50XP | 0 Gems | 2 x ItemPotion, 1 x ItemGreatBall, 1 x ItemPokeBall
+[03:33:57] (INFO) (POKESTOP LIMIT) 608/1998
+[03:33:57] (ERREUR) Error loading data from pokesnipers
+[03:33:57] (ERREUR) Error loading data from Pokecrew
+[03:33:59] (ERREUR) Error loading data from PokeWatcher
+[03:34:58] (ERREUR) Error loading data from pokeradar
+[03:35:00] (INFO) Pokestop Les Sphinx De Hemingway à 212m | 27s (route Google Walk)
+[03:35:02] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:35:43] (POKESTOP) Musée du Luxembourg +50XP | 0 Gems | 1 x ItemRazzBerry, 2 x ItemPokeBall
+[03:35:43] (INFO) (POKESTOP LIMIT) 609/1998
+[03:36:02] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:36:06] (POKESTOP) Les Sphinx De Hemingway +50XP | 0 Gems | 1 x ItemGreatBall, 2 x ItemPokeBall
+[03:36:06] (INFO) (POKESTOP LIMIT) 610/1998
+[03:36:07] (INFO) Pokestop Early Feminist à 131m | 16s (route Google Walk)
+[03:36:34] (POKESTOP) Couvent Des Filles Du Calvaire +50XP | 0 Gems | 1 x ItemMaxPotion, 1 x ItemGreatBall, 1 x ItemHyperPotion
+[03:36:34] (INFO) (POKESTOP LIMIT) 611/1998
+[03:36:48] (POKESTOP) Early Feminist +50XP | 0 Gems | 2 x ItemGreatBall, 1 x ItemPokeBall
+[03:36:48] (INFO) (POKESTOP LIMIT) 612/1998
+[03:36:49] (INFO) Pokestop Musée Des Langues, Des Langages Et De La Linguistique  à 45m | 5s (route Google Walk)
+[03:37:04] (POKESTOP) Musée Des Langues, Des Langages Et De La Linguistique  +100XP | 0 Gems | 1 x ItemPotion, 1 x ItemRevive, 5 x ItemPokeBall
+[03:37:04] (INFO) (POKESTOP LIMIT) 613/1998
+[03:37:04] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:37:04] (ERREUR) Error loading data from Pokecrew
+[03:37:04] (ERREUR) Error loading data from pokesnipers
+[03:37:05] (ERREUR) Error loading data from PokeWatcher
+[03:38:04] (ERREUR) Error loading data from pokeradar
+[03:38:05] (INFO) Pokestop Le Bateau Ivre à 93m | 12s (route Google Walk)
+[03:38:07] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:38:13] (POKESTOP) Le Graveur  +50XP | 0 Gems | 1 x ItemUltraBall, 2 x ItemPokeBall
+[03:38:13] (INFO) (POKESTOP LIMIT) 614/1998
+[03:38:30] (POKESTOP) Le Bateau Ivre +50XP | 0 Gems | 1 x ItemRevive, 2 x ItemPokeBall
+[03:38:30] (INFO) (POKESTOP LIMIT) 615/1998
+[03:38:31] (INFO) Pokestop Seminaire De Saint Suplice à 91m | 11s (route Google Walk)
+[03:39:00] (POKESTOP) Fontaine Saint Sulpice +50XP | 0 Gems | 1 x ItemRazzBerry, 1 x ItemPotion, 2 x ItemPokeBall
+[03:39:00] (INFO) (POKESTOP LIMIT) 616/1998
+[03:39:05] (POKESTOP) Seminaire De Saint Suplice +50XP | 0 Gems | 3 x ItemPokeBall
+[03:39:05] (INFO) (POKESTOP LIMIT) 617/1998
+[03:39:06] (INFO) Pokestop Horloge Marie Du VI à 60m | 7s (route Google Walk)
+[03:39:08] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:39:16] (POKESTOP) En Mémoire Des Morts A La Guerre +50XP | 0 Gems | 1 x ItemRazzBerry, 1 x ItemHyperPotion, 1 x ItemPokeBall
+[03:39:16] (INFO) (POKESTOP LIMIT) 618/1998
+[03:39:21] (POKESTOP) Horloge Marie Du VI +50XP | 0 Gems | 1 x ItemRazzBerry, 2 x ItemPokeBall
+[03:39:21] (INFO) (POKESTOP LIMIT) 619/1998
+[03:39:21] (INFO) Poké Balls: 130 | Super Balls: 32 | Hyper Balls: 20 | Master Balls: 0
+[03:39:21] (INFO) Potions: 7 | Super Potions: 0 | Hyper Potions: 2 | Potions Max: 51
+[03:39:21] (INFO) Rappels: 42 | Rappels Max: 0
+[03:39:21] (INFO) Baies: 19 | Encens: 9 | Œuf chance: 6 | Leurres: 6
+[03:39:22] (RECYCLAGE) ItemPokeBall x32
+[03:39:24] (RECYCLAGE) ItemPotion x7
+[03:39:26] (RECYCLAGE) ItemHyperPotion x2
+[03:39:28] (RECYCLAGE) ItemMaxPotion x1
+[03:39:30] (RECYCLAGE) ItemRevive x3
+[03:39:31] (ŒUF) Incubation en cours, 0.47km restant
+[03:39:31] (INFO) Pokédex (151) : Rencontré 102 | Capturé 95
+[03:39:31] (ERREUR) Error loading data from Pokecrew
+[03:39:31] (ERREUR) Error loading data from pokesnipers
+[03:39:32] (ERREUR) Error loading data from PokeWatcher
+[03:40:31] (ERREUR) Error loading data from pokeradar
+[03:40:32] (INFO) Pokestop La Famille Du Maçon à 130m | 16s (route Google Walk)
+[03:40:34] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:41:01] (POKESTOP) Hotel Bonaparte +50XP | 0 Gems | 1 x ItemPotion, 2 x ItemPokeBall
+[03:41:01] (INFO) (POKESTOP LIMIT) 620/1998
+[03:41:12] (POKESTOP) Space Invaders Madame +50XP | 0 Gems | 1 x ItemSuperPotion, 1 x ItemRevive, 1 x ItemGreatBall, 1 x ItemPokeBall
+[03:41:12] (INFO) (POKESTOP LIMIT) 621/1998
+[03:41:16] (POKESTOP) La Famille Du Maçon +50XP | 0 Gems | 2 x ItemGreatBall, 1 x ItemPokeBall
+[03:41:16] (INFO) (POKESTOP LIMIT) 622/1998
+[03:41:17] (INFO) Pokestop Ici Vécurent Les Époux Drouin à 81m | 10s (route Google Walk)
+[03:41:34] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:41:41] (POKESTOP) Victoire +100XP | 0 Gems | 2 x ItemRazzBerry, 1 x ItemHyperPotion, 3 x ItemPokeBall
+[03:41:41] (INFO) (POKESTOP LIMIT) 623/1998
+[03:41:46] (POKESTOP) Ici Vécurent Les Époux Drouin +50XP | 0 Gems | 2 x ItemGreatBall, 1 x ItemPokeBall
+[03:41:46] (INFO) (POKESTOP LIMIT) 624/1998
+[03:41:47] (INFO) Pokestop L'Arlequin à 82m | 10s (route Google Walk)
+[03:42:11] (POKESTOP) Poussielgue Rusand +50XP | 0 Gems | 3 x ItemPokeBall
+[03:42:11] (INFO) (POKESTOP LIMIT) 625/1998
+[03:42:15] (POKESTOP) L'Arlequin +50XP | 0 Gems | 1 x ItemSuperPotion, 1 x ItemUltraBall, 1 x ItemPokeBall
+[03:42:15] (INFO) (POKESTOP LIMIT) 626/1998
+[03:42:15] (ERREUR) Error loading data from Pokecrew
+[03:42:15] (ERREUR) Error loading data from pokesnipers
+[03:42:17] (ERREUR) Error loading data from PokeWatcher
+[03:43:16] (ERREUR) Error loading data from pokeradar
+[03:43:17] (INFO) Pokestop Porte Rouge à 142m | 18s (route Google Walk)
+[03:43:19] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:44:04] (POKESTOP) Porte Rouge +50XP | 0 Gems | 1 x ItemUltraBall, 2 x ItemGreatBall
+[03:44:04] (INFO) (POKESTOP LIMIT) 627/1998
+[03:44:05] (INFO) Pokestop Fontaine Saint Sulpice à 152m | 19s (route Google Walk)
+[03:44:19] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:44:55] (POKESTOP) Fontaine Saint Sulpice +50XP | 0 Gems | 1 x ItemRazzBerry, 1 x ItemPotion, 1 x ItemPokeBall
+[03:44:55] (INFO) (POKESTOP LIMIT) 628/1998
+[03:44:56] (INFO) Pokestop Seminaire De Saint Suplice à 77m | 9s (route Google Walk)
+[03:45:19] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:45:31] (POKESTOP) Seminaire De Saint Suplice +50XP | 0 Gems | 1 x ItemUltraBall, 2 x ItemPokeBall
+[03:45:31] (INFO) (POKESTOP LIMIT) 629/1998
+[03:45:31] (ERREUR) Error loading data from Pokecrew
+[03:45:31] (ERREUR) Error loading data from pokesnipers
+[03:45:33] (ERREUR) Error loading data from PokeWatcher
+[03:46:32] (ERREUR) Error loading data from pokeradar
+[03:46:33] (INFO) Pokestop En Mémoire Des Morts A La Guerre à 68m | 8s (route Google Walk)
+[03:46:36] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:46:48] (POKESTOP) En Mémoire Des Morts A La Guerre +50XP | 0 Gems | 2 x ItemUltraBall, 1 x ItemPokeBall
+[03:46:48] (INFO) (POKESTOP LIMIT) 630/1998
+[03:46:49] (INFO) Pokestop Horloge Marie Du VI à 20m | 2s (route Google Walk)
+[03:46:51] (POKESTOP) Horloge Marie Du VI +50XP | 0 Gems | 2 x ItemPotion, 1 x ItemGreatBall, 1 x ItemPokeBall
+[03:46:51] (INFO) (POKESTOP LIMIT) 631/1998
+[03:46:52] (INFO) Pokestop Le Bateau Ivre à 136m | 17s (route Google Walk)
+[03:47:25] (POKESTOP) Le Bateau Ivre +50XP | 0 Gems | 1 x ItemPotion, 2 x ItemPokeBall
+[03:47:25] (INFO) (POKESTOP LIMIT) 632/1998
+[03:47:25] (ERREUR) Error loading data from Pokecrew
+[03:47:25] (ERREUR) Error loading data from pokesnipers
+[03:47:26] (ERREUR) Error loading data from PokeWatcher
+[03:48:26] (ERREUR) Error loading data from pokeradar
+[03:48:27] (INFO) Pokestop Le Graveur  à 37m | 4s (route Google Walk)
+[03:48:29] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:48:36] (POKESTOP) Le Graveur  +50XP | 0 Gems | 1 x ItemPotion, 2 x ItemPokeBall
+[03:48:36] (INFO) (POKESTOP LIMIT) 633/1998
+[03:48:36] (ŒUF) Incubation en cours, 0.47km restant
+[03:48:36] (INFO) Poké Balls: 119 | Super Balls: 40 | Hyper Balls: 25 | Master Balls: 0
+[03:48:36] (INFO) Potions: 6 | Super Potions: 2 | Hyper Potions: 1 | Potions Max: 50
+[03:48:36] (INFO) Rappels: 40 | Rappels Max: 0
+[03:48:36] (INFO) Baies: 22 | Encens: 9 | Œuf chance: 6 | Leurres: 6
+[03:48:37] (RECYCLAGE) ItemPokeBall x34
+[03:48:39] (RECYCLAGE) ItemPotion x6
+[03:48:41] (RECYCLAGE) ItemSuperPotion x2
+[03:48:43] (RECYCLAGE) ItemHyperPotion x1
+[03:48:45] (RECYCLAGE) ItemRevive x1
+[03:48:47] (RECYCLAGE) ItemRazzBerry x3
+[03:48:48] (INFO) Pokédex (151) : Rencontré 102 | Capturé 95
+[03:48:49] (INFO) Pokestop Musée Des Langues, Des Langages Et De La Linguistique  à 79m | 10s (route Google Walk)
+[03:49:07] (POKESTOP) Musée Des Langues, Des Langages Et De La Linguistique  +50XP | 0 Gems | 2 x ItemRevive, 1 x ItemPokeBall
+[03:49:07] (INFO) (POKESTOP LIMIT) 634/1998
+[03:49:08] (INFO) Pokestop Early Feminist à 70m | 9s (route Google Walk)
+[03:49:30] (POKESTOP) Early Feminist +50XP | 0 Gems | 3 x ItemPokeBall
+[03:49:30] (INFO) (POKESTOP LIMIT) 635/1998
+[03:49:30] (ERREUR) You have reached your set maximum number of Pokemon catched per 24 Hours. Catching disabled until the limits expire.
+[03:49:30] (ERREUR) Error loading data from Pokecrew
+[03:49:30] (ERREUR) Error loading data from pokesnipers
+[03:49:31] (ERREUR) Error loading data from PokeWatcher
